@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Patrycja Zajączkowska - Graphic Designer - Developer</title>
+
+        <!-- JAVASCRIPT -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/jquery.scrollTo.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/nivo-lightbox.min.js"></script>
+
+        <!-- CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="font-awesome/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link href="css/nivo-lightbox.css" rel="stylesheet" />
+        <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+        <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+        <link href="css/animate.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet">
+        <link href="color/default.css" rel="stylesheet">
+
+    </head>
+    <body onload="load()" id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+        <section id="intro" class="intro">
+            <div class="slogan">
+                <h1>I'm <span class="typed"></span></h1>
+            </div>
+            <div class="page-scroll">
+                <a href="#about">
+                    <i class="fa fa-angle-down fa-5x animated"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <div id="navigation">
+            <nav class="navbar navbar-custom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                    <i class="fab fa-bars"></i>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="menu">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a class="menu" onclick="move(0)" href="#intro">Strona główna</a></li>
+                                    <li><a class="menu" onclick="move(0)" href="#about">O mnie</a></li>
+                                    <li><a class="menu" onclick="move(0)" href="#gallery">Portfolio</a></li>
+                                    <li><a class="menu" onclick="move(0)" href="#programowanie">Programowanie</a></li>
+                                    <li ><a class="menu" onclick="move(1)" href="#contact">Kontakt</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- O MNIE -->
+        <section id="about" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+
+                        <div class="section-heading text-center">
+                            <div class="bounceInDown" data-wow-delay="0.2s">
+                                <h2>Mam na imię Patrycja</h2>
+                            </div>
+                            <p class="bounceInUp" data-wow-delay="0.3s">Mam 21 lat i pochodzę z Radomia :)</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/img1.jpg" class="img-responsive img-rounded" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Lorem ipsum dolor sit amet, ei purto tamquam ceteros his, eos in graece posidonium. Ex nullam vidisse salutatus sed, ea persius phaedrum tincidunt vel. Option virtute nonumes ne est. Id homero expetendis eam, dictas rationibus ut has.
+                            Lorem ipsum dolor sit amet, ei purto tamquam ceteros his, eos in graece posidonium. Ex nullam vidisse salutatus sed, ea persius phaedrum tincidunt vel. Option virtute nonumes ne est. Id homero expetendis eam, dictas rationibus ut has.
+                            Lorem ipsum dolor sit amet, ei purto tamquam ceteros his, eos in graece posidonium. Ex nullam vidisse salutatus sed, ea persius phaedrum tincidunt vel. Option virtute nonumes ne est. Id homero expetendis eam, dictas rationibus ut has.
+                            Lorem ipsum dolor sit amet, ei purto tamquam ceteros his, eos in graece posidonium. Ex nullam vidisse salutatus sed, ea persius phaedrum tincidunt vel. Option virtute nonumes ne est. Id homero expetendis eam, dictas rationibus ut has.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEDIA -->
+        <section id="separator" class="home-section text-center" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <div>
+                            <div class="icon">
+                                <a href="https://www.facebook.com/"> <i class="fab fa-facebook-square fa-5x"></i></a>
+                            </div>
+                            <span>Facebook</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <div>
+                            <div class="icon">
+                                <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-5x"></i></a>
+                            </div>
+                            <span>Instagram</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <div>
+                            <div class="icon">
+                                <i class="fab fa-snapchat-square fa-5x"></i>
+                            </div>
+                            <span>lineagestyles</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <div>
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/"> <i class="fab fa-linkedin fa-5x"></i></a>
+                            </div>
+                            <span>Linked in</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section id="gallery" class="home-section text-center bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="bounceInDown" data-wow-delay="0.4s">
+                            <div class="section-heading">
+                                <h2>Portfolio</h2>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="bounceInUp" data-wow-delay="0.4s">
+                            <div id="owl-works" class="owl-carousel">
+                                <div class="item"><a href="img/gallery/Franek.png" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/Franek.png" class="img-responsive" alt="img"></a></div>
+                                <div class="item"><a href="img/gallery/Wiki.png" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/Wiki.png" class="img-responsive " alt="img"></a></div>
+                                <div class="item"><a href="img/gallery/Wojtek.png" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/Wojtek.png" class="img-responsive " alt="img"></a></div>
+                                <div class="item"><a href="img/gallery/baner1.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/baner1.jpg" class="img-responsive" alt="img"></a></div>
+                                <div class="item"><a href="img/gallery/baner2.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/baner2.jpg" class="img-responsive " alt="img"></a></div>
+                                <div class="item"><a href="img/gallery/plakat.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/plakat.jpg" class="img-responsive " alt="img"></a></div>
+                                <div class="item"><a href="img/gallery/wizytówka.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/wizytówka.jpg" class="img-responsive " alt="img"></a></div>
+                                <div class="item"><a href="img/gallery/ulotka.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/ulotka.jpg" class="img-responsive " alt="img"></a></div>
+                                
+                            </div>
+                        </div>
+                        <span id="programowanie"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JĘZYKI PROGRAMOWANIA -->
+        <section id="separator2" class="home-section text-center">
+
+            <div class="container" data-stellar-background-ratio="0.5">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Programowanie</h2>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margining">
+                        <div>
+                            <div class="icon">
+                                <i class="fab fa-html5 fa-5x"></i>
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margining">
+                        <div>
+                            <div class="icon">
+                                <i class="fab fa-css3-alt fa-5x"></i>
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margining">
+                        <div>
+                            <div class="icon">
+                                <i class="fab fa-java fa-5x"></i>
+                            </div>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margining">
+                        <div>
+                            <div class="icon">
+                                <i class="fab fa-js fa-5x"></i>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margining">
+                        <div>
+                            <div class="icon">
+                                <i class="fab devicon-c-plain-wordmark fa-5x"></i>
+                            </div>
+                            <span>C</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margining">
+                        <div>
+                            <div class="icon">
+                                <i class="fab devicon-cplusplus-plain-wordmark fa-5x"></i>
+                            </div>
+                            <span>C++</span>
+                        </div>
+                    </div>
+					 <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margining">
+                        <div>
+                            <div class="icon">
+                                <i class="fab devicon-php-plain fa-5x"></i>
+                            </div>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+					<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margining">
+                        <div>
+                            <div class="icon">
+                                <i class="fab devicon-bootstrap-plain fa-5x"></i>
+                            </div>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+					<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margining">
+                        <div>
+                            <div class="icon">
+                                <i class="fab devicon-android-plain fa-5x"></i>
+                            </div>
+                            <span>Android</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KONTAKT -->
+        <section id="contact" class="home-section text-center">
+            <div class="heading-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-offset-2">
+                            <div class="section-heading">
+                                <div class="bounceInDown" data-wow-delay="0.4s">
+                                    <h2>Skontaktuj się ze mną!</h2>
+                                </div>
+                                <p class="lightSpeedIn" data-wow-delay="0.3s"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-8 col-md-offset-2">
+                        <div class="form-wrapper marginbot-50">
+                            <div id="sendmessage">Wiadomość wysłana!</div>
+                            <div id="errormessage"></div>
+                            <form id="contact-form" action="mailto:lineage480@gmail.com" onsubmit="" method="post" class="contactForm">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Imię i nazwisko"/>
+                                    <div id="e_name" class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Adres email"/>
+                                    <div id="e_email" class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Temat"  data-msg="Wpisz conajmniej 4 znaki!" />
+                                    <div id="e_subject" class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <span style="font-size: 20px; font-weight:bold;">Wiek</span><br>
+                                    <input type="radio" name="wiek" id="radio1"/><label>0-24</label>
+                                    <input type="radio" name="wiek" id="radio2"/><label>25-49</label>
+                                    <input type="radio" name="wiek" id="radio3"/><label>50+</label>
+                                    <div id="e_wiek" class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <span style="font-size: 20px; font-weight:bold;">Czym jesteś zainteresowany?</span><br><br>
+                                    <select>
+                                        <option selected value="">WYBIERZ:</option>
+                                        <option>Programowanie</option>
+                                        <option>Grafika</option>
+                                    </select><br>
+                                    <div id="programming">
+                                        <label id="checkbox1"><input type="checkbox" name="checkbox1"/>C++,C</label>
+                                        <label id="checkbox2"><input type="checkbox"  name="checkbox2"/>HTML5,CSS3,JavaScript</label>
+                                        <label id="checkbox3"><input type="checkbox" name="checkbox3"/>Java</label>
+                                    </div>
+                                    <div id="graphics">
+                                        <label id="checkbox4"><input type="checkbox" name="checkbox4"/>Pakiet Adobe</label>
+                                        <label id="checkbox5"><input type="checkbox"  name="checkbox5"/>Pakiet Corel</label>
+                                        <label id="checkbox6"><input type="checkbox" name="checkbox6"/>Narzędzia bezpłatne</label>
+                                        <label id="checkbox7"><input type="checkbox"  name="checkbox7"/>Grafika wektorowa</label>
+                                        <label id="checkbox8"><input type="checkbox" name="checkbox8"/>Grafika rastrowa</label>
+                                    </div>
+                                    <div id="e_checkbox" class="validation"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea id="message" class="form-control" name="message" rows="5" required="required" placeholder="Napisz coś do Mnie!"></textarea>
+                                    <div id="e_msg" class="validation"></div>
+                                </div>
+
+                                <div class="text-center"><button class="btn btn-skin btn-block" id="wyslij">Wyślij wiadomość</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- STOPKA -->
+        <footer class="reverse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <p>&copy; Patrycja Zajączkowska. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/custom.js"></script>
+        <script src="js/typed/typed.js"></script>
+        <script src="contactform/contactform.js"></script>
+
+    </body>
+</html>

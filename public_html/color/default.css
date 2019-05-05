@@ -1,0 +1,39 @@
+
+a,a:hover {
+	color: #a847c2;
+}
+
+.intro .page-scroll a:hover {
+	color:#a847c2;
+}
+
+.icon:hover .fa{
+	color: #a847c2;
+}
+
+ul.nav li a:hover {
+	color: #a847c2;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color:#a847c2;
+}
+
+.bg-skin {
+	background: #a847c2;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #a847c2;
+}
+
+footer {
+    background-color: #a847c2;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #a847c2;
+  border-color: #a847c2;
+}
